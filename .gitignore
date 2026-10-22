@@ -1,0 +1,25 @@
+
+# Compiled C++ executables
+class01_hello_world/class01_hello_world
+class02_variables/class02_variables
+class03_operators/class03_operators
+class04_if_else/class04_if_else
+class05_logical_operators/class05_logical_operators
+class06_for_loop/class06_for_loop
+class07_functions/class07_funtions
+class08_function_parameters/class08_function_parameters
+class09_return_values/class09_return_values
+class10_variable_scope/class10_variable_scope
+class11_while_loop/class11_while_loop
+
+# Mini-project executables
+mini_projects/Robot_mission_simulator
+mini_projects/Robot_patrol_simulator
+mini_projects/move_robot
+mini_projects/revision_test
+
+# Common build outputs
+build/
+cmake-build-*/
+*.o
+*.out
