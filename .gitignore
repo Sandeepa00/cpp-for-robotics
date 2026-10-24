@@ -17,6 +17,7 @@ mini_projects/Robot_mission_simulator
 mini_projects/Robot_patrol_simulator
 mini_projects/move_robot
 mini_projects/revision_test
+mini_projects/battery_drain
 
 # Common build outputs
 build/
