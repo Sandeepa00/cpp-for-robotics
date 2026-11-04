@@ -12,6 +12,13 @@ class09_return_values/class09_return_values
 class10_variable_scope/class10_variable_scope
 class11_while_loop/class11_while_loop
 class12_break/class12
+class13_continue/continue_exercise
+class14_arrays/arrays_exercise
+class15_array_updating/array_updating_exercise
+class15_array_updating/array_updating2_exercise
+class16_array_analysis/accumulator_exercise
+class16_array_analysis/array_accumulator
+
 
 # Mini-project executables
 mini_projects/Robot_mission_simulator
@@ -19,6 +26,8 @@ mini_projects/Robot_patrol_simulator
 mini_projects/move_robot
 mini_projects/revision_test
 mini_projects/battery_drain
+mini_projects/robot_waypoint_filter
+
 
 # Common build outputs
 build/
