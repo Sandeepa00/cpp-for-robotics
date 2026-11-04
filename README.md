@@ -2,12 +2,12 @@
 
 Welcome to my **C++ for Robotics** repository!
 
-I'm building my programming skills through hands-on exercises and mini-projects as part of my journey toward robotics software development. This repository documents my progress in Modern C++ and provides a foundation for future work with ROS 2, Gazebo, computer vision, and autonomous robotics.
+I'm developing my C++ programming skills through hands-on exercises and robotics-related mini-projects. This repository documents my learning journey and builds a foundation for future development with ROS 2, Gazebo, computer vision, and autonomous robotics.
 
 ## 🎯 Goals
 
 - Strengthen my C++ programming fundamentals.
-- Learn to write clean, readable, and reusable code.
+- Write clean, readable, and reusable code.
 - Solve robotics-related programming problems.
 - Build practical projects and maintain a consistent GitHub portfolio.
 - Prepare for advanced robotics development using ROS 2 and simulation tools.
@@ -27,8 +27,13 @@ I'm building my programming skills through hands-on exercises and mini-projects 
 | Return Values | Returning calculated results from functions |
 | Variable Scope | Understanding local and global variables |
 | While Loops | Repeating operations while a condition is true |
-
-*This list will be updated as I progress through the course.*
+| Break and Continue | Controlling loop execution |
+| Arrays | Storing and accessing multiple values |
+| Array Updating | Modifying array elements using indexes |
+| Accumulators | Calculating totals using running sums |
+| Average Calculation | Computing averages using `double` and `static_cast` |
+| Minimum and Maximum | Finding the smallest and largest array elements |
+| Conditional Counting | Counting nearby obstacles using conditions |
 
 ## 🗂️ Repository Structure
 
@@ -45,17 +50,22 @@ cpp-for-robotics/
 ├── class09_return_values/
 ├── class10_variable_scope/
 ├── class11_while_loop/
+├── class12_break/
+├── class13_continue/
+├── class14_arrays/
+├── class15_array_updating/
+├── class16_array_analysis/
 ├── mini_projects/
 ├── .gitignore
 └── README.md
 ```
 
-Each class folder contains C++ source files for practicing a particular concept. The `mini_projects/` directory contains small programs that combine concepts learned throughout the course.
+Each class folder contains C++ source files for practicing a particular concept. The `mini_projects/` directory contains small programs combining concepts learned throughout the course.
 
 ## 🛠️ Tools and Technologies
 
 - **Language:** C++
-- **Standard:** C++17 learning target
+- **Standard:** C++17
 - **Operating System:** Ubuntu Linux
 - **Editor:** Visual Studio Code
 - **Compiler:** GCC (`g++`)
@@ -72,7 +82,7 @@ cd cpp-for-robotics
 
 ### 2. Install the C++ compiler
 
-On Ubuntu, run:
+On Ubuntu:
 
 ```bash
 sudo apt update
@@ -87,10 +97,10 @@ g++ --version
 
 ### 3. Compile a program
 
-For example, compile the Hello World exercise:
+For example:
 
 ```bash
-g++ -std=c++17 class01_hello_world/class01_hello_world.cpp -o hello
+g++ -std=c++17 -Wall -Wextra class01_hello_world/class01_hello_world.cpp -o hello
 ```
 
 ### 4. Run the program
@@ -108,31 +118,35 @@ This repository includes practice projects such as:
 - **Robot Mission Simulator** — practicing conditions and checkpoint-based execution.
 - **Robot Patrol Simulator** — practicing loops and repeated robot actions.
 - **Battery Monitor** — exploring battery thresholds and conditional logic.
-- **Robot Movement Exercises** — practicing function calls and basic program flow.
+- **Robot Waypoint Filter** — filtering waypoint IDs using loops, conditions, `continue`, and `break`.
+- **Robot Sensor Array Analysis** — calculating total, average, minimum, maximum, and nearby obstacles using arrays and loops.
 
 These are learning projects and will evolve as I develop stronger programming skills.
 
 ## 🗺️ Learning Roadmap
 
-My planned learning path includes:
-
 - [x] C++ fundamentals and program structure
 - [x] Variables, operators, and conditional statements
 - [x] Loops and functions
 - [x] Parameters, return values, and variable scope
-- [ ] Complete revision exercises and improve existing projects
-- [ ] Arrays, strings, references, and pointers
+- [x] Break and continue statements
+- [x] Arrays and array manipulation
+- [x] Accumulators and sensor data analysis
+- [ ] Pointers and references
+- [ ] Strings and standard library
 - [ ] Object-oriented programming in C++
 - [ ] Modern C++ practices
 - [ ] ROS 2 development using C++
 - [ ] Robot simulation with Gazebo
 - [ ] Computer vision and SLAM projects
 
-The roadmap represents my learning plan; future topics will be marked complete as I study and practice them.
+The roadmap represents my learning plan. Topics will be marked complete as I study, practise, and implement them.
 
 ## 📈 Progress
 
 This repository is a work in progress. I regularly add exercises, improve existing code, and commit changes as I learn.
+
+My current progress covers C++ fundamentals, loops, functions, arrays, and basic sensor-data processing.
 
 My aim is to progress from programming fundamentals to practical robotics applications.
 
