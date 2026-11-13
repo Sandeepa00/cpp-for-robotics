@@ -1,5 +1,8 @@
 
+# ==========================================
 # Compiled C++ executables
+# ==========================================
+
 class01_hello_world/class01_hello_world
 class02_variables/class02_variables
 class03_operators/class03_operators
@@ -22,8 +25,22 @@ class17_pointers/pointer_intro
 class17_pointers/pointer_assessment
 class18_memory_addresses/multiple_pointers
 
+# Class 19 - Null pointers
+class19_null_pointers/null_pointer_intro
+class19_null_pointers/robot_sensor_manager
+class19_null_pointers/battery_sensor
 
+
+# Class 20 - Dynamic memory
+class20_dynamic_memory/lidar_memory
+class20_dynamic_memory/dynamic_battery
+
+
+
+# ==========================================
 # Mini-project executables
+# ==========================================
+
 mini_projects/Robot_mission_simulator
 mini_projects/Robot_patrol_simulator
 mini_projects/move_robot
@@ -31,9 +48,24 @@ mini_projects/revision_test
 mini_projects/battery_drain
 mini_projects/robot_waypoint_filter
 
-
+# ==========================================
 # Common build outputs
+# ==========================================
+
 build/
 cmake-build-*/
 *.o
 *.out
+*.exe
+*.a
+*.so
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*~
