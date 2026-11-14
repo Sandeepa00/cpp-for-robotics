@@ -24,16 +24,13 @@ class16_array_analysis/array_accumulator
 class17_pointers/pointer_intro
 class17_pointers/pointer_assessment
 class18_memory_addresses/multiple_pointers
-
-# Class 19 - Null pointers
 class19_null_pointers/null_pointer_intro
 class19_null_pointers/robot_sensor_manager
 class19_null_pointers/battery_sensor
-
-
-# Class 20 - Dynamic memory
 class20_dynamic_memory/lidar_memory
 class20_dynamic_memory/dynamic_battery
+class21_class21_references/robot_battery
+class21_class21_references/robot_speed_controller
 
 
 

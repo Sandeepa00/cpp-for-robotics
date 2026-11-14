@@ -14,26 +14,29 @@ I'm developing my C++ programming skills through hands-on exercises and robotics
 
 ## 📚 Topics Covered
 
-| Topic | Description |
-|---|---|
-| Hello World | Basic C++ program structure and output |
-| Variables and Data Types | Integers, floating-point values, characters, and booleans |
-| Operators | Assignment, arithmetic, increment, and decrement |
-| Conditional Statements | `if`, `else if`, and `else` |
-| Logical Operators | `&&`, `||`, and `!` |
-| For Loops | Repeating operations and iterating through checkpoints |
-| Functions | Creating and calling reusable functions |
-| Function Parameters | Passing values into functions |
-| Return Values | Returning calculated results from functions |
-| Variable Scope | Understanding local and global variables |
-| While Loops | Repeating operations while a condition is true |
-| Break and Continue | Controlling loop execution |
-| Arrays | Storing and accessing multiple values |
-| Array Updating | Modifying array elements using indexes |
-| Accumulators | Calculating totals using running sums |
-| Average Calculation | Computing averages using `double` and `static_cast` |
-| Minimum and Maximum | Finding the smallest and largest array elements |
-| Conditional Counting | Counting nearby obstacles using conditions |
+| Topic                     | Description                                                        |   |             |
+| ------------------------- | ------------------------------------------------------------------ | - | ----------- |
+| Hello World               | Basic C++ program structure and output                             |   |             |
+| Variables and Data Types  | Integers, floating-point values, characters, and booleans          |   |             |
+| Operators                 | Assignment, arithmetic, increment, and decrement                   |   |             |
+| Conditional Statements    | `if`, `else if`, and `else`                                        |   |             |
+| Logical Operators         | `&&`, \`                                                           |   | `, and `!\` |
+| For Loops                 | Repeating operations and iterating through checkpoints             |   |             |
+| Functions                 | Creating and calling reusable functions                            |   |             |
+| Function Parameters       | Passing values into functions                                      |   |             |
+| Return Values             | Returning calculated results from functions                        |   |             |
+| Variable Scope            | Understanding local and global variables                           |   |             |
+| While Loops               | Repeating operations while a condition is true                     |   |             |
+| Break and Continue        | Controlling loop execution                                         |   |             |
+| Arrays                    | Storing and accessing multiple values                              |   |             |
+| Array Updating            | Modifying array elements using indexes                             |   |             |
+| Accumulators              | Calculating totals using running sums                              |   |             |
+| Sensor Data Analysis      | Average, minimum, maximum, and conditional counting                |   |             |
+| Pointers                  | Understanding memory addresses and pointer dereferencing           |   |             |
+| Multiple Pointers         | Working with multiple pointers to the same variable                |   |             |
+| Null Pointers             | Using `nullptr` and checking pointer validity                      |   |             |
+| Dynamic Memory Allocation | Allocating and releasing memory using `new` and `delete`           |   |             |
+| Dynamic Arrays            | Managing dynamically allocated arrays using `new[]` and `delete[]` |   |             |
 
 ## 🗂️ Repository Structure
 
@@ -55,12 +58,16 @@ cpp-for-robotics/
 ├── class14_arrays/
 ├── class15_array_updating/
 ├── class16_array_analysis/
+├── class17_pointers/
+├── class18_memory_addresses/
+├── class19_null_pointers/
+├── class20_dynamic_memory/
 ├── mini_projects/
 ├── .gitignore
 └── README.md
 ```
 
-Each class folder contains C++ source files for practicing a particular concept. The `mini_projects/` directory contains small programs combining concepts learned throughout the course.
+Each class folder contains C++ source files for practising a particular concept. The `mini_projects/` directory contains small programs combining concepts learned throughout the course.
 
 ## 🛠️ Tools and Technologies
 
@@ -115,11 +122,12 @@ You can compile and run other `.cpp` files by replacing the source file path and
 
 This repository includes practice projects such as:
 
-- **Robot Mission Simulator** — practicing conditions and checkpoint-based execution.
-- **Robot Patrol Simulator** — practicing loops and repeated robot actions.
+- **Robot Mission Simulator** — practising conditions and checkpoint-based execution.
+- **Robot Patrol Simulator** — practising loops and repeated robot actions.
 - **Battery Monitor** — exploring battery thresholds and conditional logic.
 - **Robot Waypoint Filter** — filtering waypoint IDs using loops, conditions, `continue`, and `break`.
 - **Robot Sensor Array Analysis** — calculating total, average, minimum, maximum, and nearby obstacles using arrays and loops.
+- **Dynamic LiDAR Memory Manager** — practising dynamic memory allocation and sensor reading storage.
 
 These are learning projects and will evolve as I develop stronger programming skills.
 
@@ -132,23 +140,27 @@ These are learning projects and will evolve as I develop stronger programming sk
 - [x] Break and continue statements
 - [x] Arrays and array manipulation
 - [x] Accumulators and sensor data analysis
-- [ ] Pointers and references
+- [x] Pointers and memory addresses
+- [x] Null pointers and pointer validation
+- [x] Dynamic memory allocation (`new` and `delete`)
+- [ ] References and pass by reference
 - [ ] Strings and standard library
 - [ ] Object-oriented programming in C++
 - [ ] Modern C++ practices
 - [ ] ROS 2 development using C++
 - [ ] Robot simulation with Gazebo
-- [ ] Computer vision and SLAM projects
+- [ ] Autonomous navigation and SLAM
+- [ ] Computer vision and AI robotics projects
 
 The roadmap represents my learning plan. Topics will be marked complete as I study, practise, and implement them.
 
 ## 📈 Progress
 
-This repository is a work in progress. I regularly add exercises, improve existing code, and commit changes as I learn.
+**Current progress: 20 / 120 classes completed (16.67%).**
 
-My current progress covers C++ fundamentals, loops, functions, arrays, and basic sensor-data processing.
+I've completed the first stage of my C++ learning programme, covering programming fundamentals, loops, functions, arrays, pointers, and dynamic memory management.
 
-My aim is to progress from programming fundamentals to practical robotics applications.
+I'm continuing with advanced C++ concepts before progressing to ROS 2, Gazebo, autonomous navigation, computer vision, and AI-powered robotics.
 
 ## 👩‍💻 About Me
 
