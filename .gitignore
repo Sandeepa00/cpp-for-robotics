@@ -1,4 +1,4 @@
-
+```gitignore
 # ==========================================
 # Compiled C++ executables
 # ==========================================
@@ -29,10 +29,20 @@ class19_null_pointers/robot_sensor_manager
 class19_null_pointers/battery_sensor
 class20_dynamic_memory/lidar_memory
 class20_dynamic_memory/dynamic_battery
-class21_class21_references/robot_battery
-class21_class21_references/robot_speed_controller
+class21_references/robot_speed_controller
+
+# Class 22 - Const References
+class22_const_references/robot_sensor_display
+class22_const_references/robot_sensor_report
 
 
+# Class 23 - Pointers vs References
+class23_pointers_vs_references/pointer_reference
+class23_pointers_vs_references/robot_sensor_manager
+
+# Class 24 - Pointers and Functions
+class24_pointers_and_functions/robot_battery_controller
+class24_pointers_and_functions/robot_speed_controller
 
 # ==========================================
 # Mini-project executables
@@ -66,3 +76,4 @@ cmake-build-*/
 *.tmp
 *.swp
 *~
+```

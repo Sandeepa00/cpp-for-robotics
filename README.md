@@ -14,29 +14,33 @@ I'm developing my C++ programming skills through hands-on exercises and robotics
 
 ## 📚 Topics Covered
 
-| Topic                     | Description                                                        |   |             |
-| ------------------------- | ------------------------------------------------------------------ | - | ----------- |
-| Hello World               | Basic C++ program structure and output                             |   |             |
-| Variables and Data Types  | Integers, floating-point values, characters, and booleans          |   |             |
-| Operators                 | Assignment, arithmetic, increment, and decrement                   |   |             |
-| Conditional Statements    | `if`, `else if`, and `else`                                        |   |             |
-| Logical Operators         | `&&`, \`                                                           |   | `, and `!\` |
-| For Loops                 | Repeating operations and iterating through checkpoints             |   |             |
-| Functions                 | Creating and calling reusable functions                            |   |             |
-| Function Parameters       | Passing values into functions                                      |   |             |
-| Return Values             | Returning calculated results from functions                        |   |             |
-| Variable Scope            | Understanding local and global variables                           |   |             |
-| While Loops               | Repeating operations while a condition is true                     |   |             |
-| Break and Continue        | Controlling loop execution                                         |   |             |
-| Arrays                    | Storing and accessing multiple values                              |   |             |
-| Array Updating            | Modifying array elements using indexes                             |   |             |
-| Accumulators              | Calculating totals using running sums                              |   |             |
-| Sensor Data Analysis      | Average, minimum, maximum, and conditional counting                |   |             |
-| Pointers                  | Understanding memory addresses and pointer dereferencing           |   |             |
-| Multiple Pointers         | Working with multiple pointers to the same variable                |   |             |
-| Null Pointers             | Using `nullptr` and checking pointer validity                      |   |             |
-| Dynamic Memory Allocation | Allocating and releasing memory using `new` and `delete`           |   |             |
-| Dynamic Arrays            | Managing dynamically allocated arrays using `new[]` and `delete[]` |   |             |
+| Topic | Description |
+|---|---|
+| Hello World | Basic C++ program structure and output |
+| Variables and Data Types | Integers, floating-point values, characters, and booleans |
+| Operators | Assignment, arithmetic, increment, and decrement |
+| Conditional Statements | `if`, `else if`, and `else` |
+| Logical Operators | `&&`, `||`, and `!` |
+| For Loops | Repeating operations and iterating through checkpoints |
+| Functions | Creating and calling reusable functions |
+| Function Parameters | Passing values into functions |
+| Return Values | Returning calculated results from functions |
+| Variable Scope | Understanding local and global variables |
+| While Loops | Repeating operations while a condition is true |
+| Break and Continue | Controlling loop execution |
+| Arrays | Storing and accessing multiple values |
+| Array Updating | Modifying array elements using indexes |
+| Accumulators | Calculating totals using running sums |
+| Sensor Data Analysis | Average, minimum, maximum, and conditional counting |
+| Pointers | Understanding memory addresses and pointer dereferencing |
+| Multiple Pointers | Working with multiple pointers to the same variable |
+| Null Pointers | Using `nullptr` and checking pointer validity |
+| Dynamic Memory Allocation | Allocating and releasing memory using `new` and `delete` |
+| Dynamic Arrays | Managing dynamically allocated arrays using `new[]` and `delete[]` |
+| References | Creating aliases for variables and passing by reference |
+| Const References | Passing data efficiently with read-only access |
+| Pointers vs References | Understanding their differences and use cases |
+| Pointers and Functions | Passing pointers to functions and modifying original variables |
 
 ## 🗂️ Repository Structure
 
@@ -62,6 +66,10 @@ cpp-for-robotics/
 ├── class18_memory_addresses/
 ├── class19_null_pointers/
 ├── class20_dynamic_memory/
+├── class21_references/
+├── class22_const_references/
+├── class23_pointers_vs_references/
+├── class24_pointers_and_functions/
 ├── mini_projects/
 ├── .gitignore
 └── README.md
@@ -143,7 +151,10 @@ These are learning projects and will evolve as I develop stronger programming sk
 - [x] Pointers and memory addresses
 - [x] Null pointers and pointer validation
 - [x] Dynamic memory allocation (`new` and `delete`)
-- [ ] References and pass by reference
+- [x] References and pass by reference
+- [x] Const references
+- [x] Pointers vs references
+- [x] Pointers and functions
 - [ ] Strings and standard library
 - [ ] Object-oriented programming in C++
 - [ ] Modern C++ practices
@@ -156,9 +167,9 @@ The roadmap represents my learning plan. Topics will be marked complete as I stu
 
 ## 📈 Progress
 
-**Current progress: 20 / 120 classes completed (16.67%).**
+**Current progress: 24 / 120 classes completed (20%).**
 
-I've completed the first stage of my C++ learning programme, covering programming fundamentals, loops, functions, arrays, pointers, and dynamic memory management.
+I've completed the first stage of my C++ learning programme and started advanced C++ concepts. My learning so far covers programming fundamentals, loops, functions, arrays, pointers, dynamic memory management, references, and pointer-based functions.
 
 I'm continuing with advanced C++ concepts before progressing to ROS 2, Gazebo, autonomous navigation, computer vision, and AI-powered robotics.
 
